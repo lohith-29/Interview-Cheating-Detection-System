@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Node
+node_modules/
+
+# React Build
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# MongoDB
+data/
+
+# Uploads
+backend/uploads/videos/
+backend/uploads/screenshots/
+
+# Reports
+backend/reports/generated_reports/
+
+# AI Models
+ml_models/*.pt
+ml_models/*.pth
+ml_models/*.pkl
+
+# OS Files
+.DS_Store
+Thumbs.db

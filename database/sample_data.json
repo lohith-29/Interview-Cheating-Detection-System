@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "name": "Lohith",
+      "email": "lohith@gmail.com",
+      "password": "123456",
+      "role": "candidate"
+    }
+  ],
+
+  "violations": [
+    {
+      "candidate_id": "123",
+      "violation_type": "PHONE_DETECTED",
+      "timestamp": "2026-06-01 10:30:00",
+      "confidence": 0.97
+    },
+
+    {
+      "candidate_id": "123",
+      "violation_type": "TAB_SWITCH",
+      "timestamp": "2026-06-01 10:35:00",
+      "confidence": 1.0
+    }
+  ],
+
+  "reports": [
+    {
+      "candidate_id": "123",
+      "phone_detected": 1,
+      "multiple_faces": 0,
+      "tab_switches": 1,
+      "gaze_violations": 2,
+      "risk_score": 40,
+      "status": "WARNING"
+    }
+  ]
+}
